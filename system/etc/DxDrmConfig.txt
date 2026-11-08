@@ -1,0 +1,34 @@
+#Filter the log output from irrelevant modules
+DisabledModules = 10
+DebugLevel = 30
+
+#LogFile=/data/DxDrm/Logs/cln
+
+LogcatLogs=True
+
+#log the HTTP communication
+JavaHTTPLog=true
+
+#PlayReadyLog = /data/DxDrm/Logs
+
+#Provisioning data
+KeyFilePath = /data/DxDrm/
+PlayReadyStorePath = /data/DxDrm/DxPlayReadyDB.hds
+AutoProvisionPlayReady = PlayReadyEncPkgOem, /data/DxDrm/DxPrdyPkgEnc
+#SfsLocation = /persist/data
+SupportAllMimeTypes=true
+#EnableProfiling=true
+
+# Enable TZ logging through Platform's native method
+#EnableTzNativeLogs=true
+
+# MIME types and Extenstions related definitions affect the plugin
+# PIFF mime types and extensions are supported by default
+# ExcludedMimeTypes and ExcludedExtensions override all previous definitions
+#SupportedMimeTypes = application/vnd.ms-wmdrm.lic-resp, application/vnd.ms-wmdrm.meter-chlg-req, audio/x-ms-wma, video/x-ms-wmv, video/x-ms-asf, application/vnd.ms-playready.initiator+xml, application/vnd.ms-playready.media.pyv, audio/vnd.ms-playready.media.pya, video/vnd.ms-playready.media.pyv, video/vnd.ms-playready.media.eny, application/vnd.ms-playready.lic-resp, audio/isma, video/ismv, SmoothStreaming/mp4
+#SupportedExtensions = .asf, .pya, .pyv, .wma, .wmv, .eny, .pye, .ismv, .isma, .playready
+#ExcludedMimeTypes = 
+#ExcludedExtensions = 
+
+# uncomment this line in order to support multi-user file name translation
+#TranslateUserPath=true
