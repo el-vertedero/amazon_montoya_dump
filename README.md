@@ -1,0 +1,14 @@
+# montoya-user 5.1.1 LVY48F 54.6.8.6_user_686800020 release-keys
+- manufacturer: amazon
+- platform: capri
+- codename: montoya
+- flavor: montoya-user
+- release: 5.1.1
+- id: LVY48F
+- incremental: 54.6.8.6_user_686800020
+- tags: release-keys
+- fingerprint: Amazon/montoya:5.1.1/LVY48F/54.6.8.6_user_686800020:user/release-keys
+- is_ab: false
+- brand: Amazon
+- branch: montoya-user-5.1.1-LVY48F-54.6.8.6_user_686800020-release-keys
+- repo: amazon_montoya_dump

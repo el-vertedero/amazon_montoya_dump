@@ -1,0 +1,1 @@
+console=none androidboot.hardware=montoya androidboot.selinux=enforcing mem=509M@0xA0000000
